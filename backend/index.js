@@ -26,7 +26,7 @@ app.get("/", (req,res)=>{
 })
 
 //api
-app.use("api/v1/user", userRoute);
+app.use("/api/v1/user", userRoute);
 
 
 
